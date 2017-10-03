@@ -1,18 +1,17 @@
-ACTIVITY 8
+Task 9 Natural cubic spline
 
-Given
-Two tables of values ​​of the function and its derivative on a uniform ordered grid of nodes (the number of nodes of M). The degrees of polynomials are given for comparison.
+It's given.
+Tabular function on a uniform ordered grid of nodes (number M). The number of nodes is given = the degree of the polynomial +1.
 
 TASKS.
-1. Construct an interpolation Hermite polynomial and Hermite splines. The interpolation Hermite polynomial is constructed on a uniform grid of nodes separated from the main one. (the given degrees of the polynomial are chosen so that this can be done by preserving the extreme points of the grid).
-Conduct comparisons by the following criteria:
+1. Construct a natural cubic spline on four uniform grids (including a mesh with all nodes). Conduct comparisons on the following criteria (that is, supplement the existing table with new lines):
 Visual comparison of graphs with the application of points of tabular function.
-The number of nodes where the value of the polynomial is closer to the value of the table function than the value of the spline
-Maximum absolute error for a polynomial and a spline for all nodes
-The maximum relative error for a polynomial and a spline for all nodes
-The average absolute error for a polynomial and a spline for all nodes
-The average relative error for a polynomial and spline for all nodes
+The maximum absolute error for each spline in all nodal values ​​of a given tabular function
+The maximum relative error for each spline in all nodal values ​​of a given tabular function
+The average absolute error for each spline in all nodal values ​​of a given tabular function
+The average relative error for each spline in all nodal values ​​of a given tabular function
 
-2. From the main grid, select an arbitrary grid (not necessarily uniform) from not more than half the nodes of the main grid (M / 2), so as to obtain an interpolation polynomial having the least absolute (or relative) error in the remaining nodes. Compare with a spline built on a dedicated grid.
-3. Construct an Hermite spline without using a table of derivatives, i.e. calculate them according to the function value table. Compare with n1
-4. Calculate the values ​​of the derivatives of the Hermite polynomial and Hermite splines. Find the maximum absolute and relative error at the nodes.
+2. Change the boundary conditions and add new rows to the table
+The second derivatives are not zero (approximation)
+The first derivatives (approximation)
+Conditions of absence of the node
