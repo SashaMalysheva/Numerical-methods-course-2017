@@ -82,7 +82,7 @@ def print_res(x, y, y_new, name):
     print(name + "_max_relative_error = ", max_relative_error_spline)
 
 if __name__ == "__main__":
-    with open('10.txt', 'r') as f:
+    with open('05.txt', 'r') as f:
         l = f.read().split()
         n = int(l[0])
         cnts = list(map(int, l[1:4]))
