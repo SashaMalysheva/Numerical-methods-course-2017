@@ -1,1 +1,1 @@
-Generate an algebraic equation, find the roots, count all four boundaries for the roots. Change the coefficient slightly and look at how the roots have changed because of this. Round off all the calculations and see how the roots have changed because of this. Now everything is the same, but we have roots, we restore the coefficients by them.
+Take the equation and the method of finding the roots of your version, do it. Calculate the number of function calls depending on the accuracy
