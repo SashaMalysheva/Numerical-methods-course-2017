@@ -1,1 +1,3 @@
-Take the equation and the method of finding the roots of your version, do it. Calculate the number of function calls depending on the accuracy
+Implement LU decomposition
+And the modification of LU decomposition by shifting to the main diagonal the maximum elements
+And then compare and analyze
